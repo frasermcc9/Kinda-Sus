@@ -110,6 +110,8 @@ public class GameController {
 
     }
 
+    //todo: use a list to make this not suck
+    
     private void clickOne(Button b) {
         b.setOnAction(_e -> clickTwo(b));
 
